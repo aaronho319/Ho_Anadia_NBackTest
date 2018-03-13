@@ -1,0 +1,8 @@
+{
+  "name": "ho-anadia-nbacktest",
+  "app_id": "b616878a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
