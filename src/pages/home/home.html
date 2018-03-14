@@ -4,20 +4,45 @@
   </ion-title>
 </ion-navbar>
 
-<ion-content class="home">
-  <ion-slides pager>
 
-	  <ion-slide id="header-slide1" style="background-color: green">
-	    <h2>N-Back</h2>
+<body>
+<ion-content class="home">
+  	<ion-slides pager>
+
+	  <ion-slide id="instruction-slide1" >
+	    <h1> Welcome to</h1>
+	    <h4>N-Back</h4>
 	  </ion-slide>
 
-	  <ion-slide style="background-color: blue">
+	  <ion-slide id="instruction-slide2" >
 	    <h2>Slide 2</h2>
 	  </ion-slide>
 
-	  <ion-slide style="background-color: red">
+	  <ion-slide id="instruction-slide3" >
 	    <h2>Slide 3</h2>
+	    <ion-content>
+	    	<button ion-button (click)="pushPage()">
+	    		Go to MainPage
+	    	</button>
+	    </ion-content>
 	  </ion-slide>
 
 	</ion-slides>
+
+	<ion-list>
+
+  <ion-item>
+    <ion-label floating>Email</ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+
 </ion-content>
+</body>

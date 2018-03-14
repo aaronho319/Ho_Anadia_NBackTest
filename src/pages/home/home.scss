@@ -2,8 +2,43 @@ page-home {
 
 }
 
-#header-slide1 {
+/* 
+Colors:
+
+Background-color: #006AFF; ---> Ionic Blue
+Color: #FFFFFF; ---> Ionic White
+Color: #f53d3d; ---> Ionic Red
+Color: #4D4D4D; ---> Ionic Grey
+Font-Family: 'Futura';
+
+*/
+
+body {
+	font-family: 'Garamond';
+}
+
+#instruction-slide1 {
+	
+	font-size: 15px;
+	color: #4D4D4D;
+	background-color: #FFFFFF;
+}
+
+#instruction-slide2 {
 	font-family: 'Times New Roman';
 	font-size: 15px;
-	color: blue;
+	color: #FFFFFF;
+	background-color: #007AFF;
 }
+
+#instruction-slide3 {
+	font-family: 'Times New Roman';
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #007AFF;
+}
+
+h4 {
+	font-family: 'Futura';
+}
+
