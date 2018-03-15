@@ -1,3 +1,22 @@
 page-main {
 
 }
+
+body {
+    background-color: #FFFFFF;
+}
+
+.main {
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+ion-content #main-menu {
+    font-family: 'Futura';
+    font-size: 6em;
+    text-transform: uppercase;
+    color: #007AFF;
+    padding-top: 10%;
+    width: 100%;
+}   

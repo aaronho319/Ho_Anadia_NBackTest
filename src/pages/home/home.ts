@@ -7,14 +7,11 @@ import { MainPage } from '../main/main';
   templateUrl: 'home.html'
 
 })
+
 export class HomePage {
 
-	mainPage = mainPage;
+	mainPage = MainPage;
 
-  	constructor(public navCtrl: NavController) {
-  	}	
+  constructor(public navCtrl: NavController) {}	
 
-  // pushPage() {
-  // 	this.navCtrl.push(MainPage);
-  // }
 }

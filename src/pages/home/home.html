@@ -15,34 +15,22 @@
 	  </ion-slide>
 
 	  <ion-slide id="instruction-slide2" >
-	    <h2>Slide 2</h2>
+	    <h2>Why N-Back?</h2>
 	  </ion-slide>
 
 	  <ion-slide id="instruction-slide3" >
-	    <h2>Slide 3</h2>
-	    <ion-content>
-	    	<button ion-button (click)="pushPage()">
-	    		Go to MainPage
-	    	</button>
-	    </ion-content>
-	  </ion-slide>
+			<h2>How?</h2>
 
+			<button ion-button color="black" icon-end [navPush]="mainPage">
+				Continue
+				<ion-icon name='arrow-forward'></ion-icon>
+			</button>
+				
+		</ion-slide>
+		
 	</ion-slides>
 
-	<ion-list>
-
-  <ion-item>
-    <ion-label floating>Email</ion-label>
-    <ion-input type="email"></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label floating>Password</ion-label>
-    <ion-input type="password"></ion-input>
-  </ion-item>
-
-</ion-list>
-
+	
 
 </ion-content>
 </body>
