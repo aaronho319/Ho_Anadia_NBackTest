@@ -5,14 +5,17 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>MainMenu</ion-title>
+  <ion-navbar *navbar>
+    <ion-title>Menu</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
-<ion-content padding>
+<body>
+    <ion-content padding class="main">
+        <h1 id="main-menu">N-Back Test</h1>
+        <img width="20%" src="../../assets/imgs/play-logo.png" [navPush]="gamePage">
+    </ion-content>
+  
+</body>
 
-</ion-content>

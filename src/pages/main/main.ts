@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MainMenuPage } from '../main-menu/main-menu';
 
 /**
  * Generated class for the MainPage page.
@@ -15,7 +16,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MainPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  mainMenu = MainMenuPage;
+
+  constructor() {
   }
 
   ionViewDidLoad() {
