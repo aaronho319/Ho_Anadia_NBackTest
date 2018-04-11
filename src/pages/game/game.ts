@@ -13,13 +13,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-game',
   templateUrl: 'game.html',
 })
-// export class GamePage {
 
-//   constructor() {}
+export class GamePage {
 
-//   ionViewDidLoad() {
-//     console.log('ionViewDidLoad GamePage');
-//   }
 
-// }
+}
+
 
